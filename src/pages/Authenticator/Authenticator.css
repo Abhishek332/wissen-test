@@ -1,0 +1,52 @@
+body{
+    background : rgb(218, 59, 85);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color : white;
+    font-size : 36px;
+}
+
+.form {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left : 50%;
+    top : 50%;
+    height : 350px;
+    width : 420px;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background : pink;
+    border-radius : 20px;
+    padding : 20px;
+}
+
+.form input{
+    padding : 10px;
+    border : none;
+    outline : none;
+    font-size : 16px;
+    border-radius : 5px;
+    width : 90%;
+    height : 30px;
+    margin : 30px 0;
+}
+
+.form button {
+    height : 50px;
+    width : 90%;
+    border-radius: 10px;
+    background-color: rgb(218, 59, 85);
+    border : none;
+    font-size : 18px;
+    color : white;
+}
+
+.form button:hover{
+    background-color: brown;
+}
