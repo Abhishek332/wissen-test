@@ -91,7 +91,15 @@ const Authenticator = () => {
             <span>Terms & Conditions</span> and <span>Privacy Policys.</span>
           </p>
         </div>
-        <button>Next</button>
+        <button
+          style={
+            formValue.email || formValue.password
+              ? { backgroundColor: "#1b2fa2", color: "white" }
+              : { backgroundColor: "#d1d5ec", color: "#1b2fa2" }
+          }
+        >
+          Next
+        </button>
         <h4>Signin with company SSO</h4>
       </form>
 
