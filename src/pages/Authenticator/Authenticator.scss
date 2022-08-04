@@ -1,0 +1,57 @@
+@import "../../index.scss";
+
+.form-box {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 325px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+  .logo {
+    height: 65px;
+    width: 100%;
+    position: relative;
+    img {
+      position: absolute;
+      height: 100%;
+      width: auto;
+    }
+  }
+  & > p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0 50px;
+  }
+  button {
+    height: 50px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: $secondary_1;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: $primary;
+  }
+
+  .check {
+    p {
+      font-size: 15px;
+      margin-bottom: 20px;
+      color: $secondary;
+      line-height: 24px;
+      span {
+        font-weight: bold;
+        color: black;
+      }
+    }
+  }
+}
+
+h4 {
+  color: $primary;
+  font-size: 18px;
+  margin: 60px auto 0;
+}
