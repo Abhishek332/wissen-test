@@ -1,5 +1,5 @@
 import React from 'react'
-import { Authenticator, Home } from "./pages";
+import { Authenticator, Home, TreeRoot } from "./pages";
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,6 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Authenticator />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/treeroot" element={<TreeRoot />} />
       </Routes>
     </Router>
   )

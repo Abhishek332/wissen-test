@@ -23,7 +23,7 @@ const Authenticator = () => {
     { loading, userInfo, error } = useSelector((state) => state.userLogin),
     alreadyLogged = JSON.parse(localStorage.getItem("userInfo") || "null");
 
-  if (alreadyLogged) navigate("/home");
+  //if (alreadyLogged) navigate("/home");
 
   useEffect(() => {
     if (!error) return;

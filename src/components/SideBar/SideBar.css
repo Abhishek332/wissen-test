@@ -1,0 +1,16 @@
+.sidebar{
+    width : 250px;
+    height : 100vh;
+    background : #343a40;
+    box-shadow: 0 0 3px rgb(69, 69, 69);
+    }
+  
+  .side-link{
+    cursor : pointer;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    color : #c2c0cb;
+    padding : 20px;
+    text-transform: capitalize;
+    }

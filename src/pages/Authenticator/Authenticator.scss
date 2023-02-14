@@ -1,10 +1,11 @@
 @import "../../index.scss";
 
 .form-box {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
+  // position: absolute;
+  // transform: translate(-50%, -50%);
+  // left: 50%;
+  // top: 50%;
+  margin: auto;
   width: 325px;
   @media (max-width: 768px) {
     width: 90%;
